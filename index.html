@@ -94,7 +94,11 @@
                     padding: 0 20px 0 60px !important;
                     background: url(img/icon_camera.gif) no-repeat 10px -23px;
                 }
-            }
+                video,
+                video img{
+                    width: 416px !important;
+                    height: 312px !important;
+                }
             @media only screen and (max-width: 510px){
                 table.container{
                     width: 100% !important;
@@ -168,6 +172,11 @@
                 td.callout table br.spacer{
                     display: block;
                 }
+                video,
+                video img{
+                    width: 300px !important;
+                    height: 255px !important;
+                }
             }
         </style>
     </head>
@@ -236,6 +245,10 @@
                                         </td>
                                     </tr>
                                 </table>
+                                <video width="570" height="428" poster="video/our_vineyard.jpg" controls="controls" style="margin-top: 30px">
+                                    <source src="video/our_vineyard.mp4" type="video/mp4">
+                                    <a href="http://yoursite.com/vide.html"><img src="video/our_vineyard.jpg" alt="Our Videyard"></a>
+                                </video>
                             </td>
                         </tr>
                         <tr>
